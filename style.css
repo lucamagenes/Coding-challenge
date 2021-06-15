@@ -1,0 +1,77 @@
+body{
+  background-image: url("img/sfondo.jpg");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+#box{
+  margin: auto;
+  width: 950px;
+  height: 650px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+
+header{
+  text-align: center;
+  padding-top: 60px;
+}
+
+#logo{
+  width: 150px;
+}
+
+#slogan{
+  margin: auto;
+  color: lime;
+  font-size: 25px;
+}
+
+nav{
+  background-color: lime;
+  width: 80%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 6px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.monopattini{
+  margin: auto;
+  color: white;
+  width: 80%;
+}
+
+.nome > span{
+  font-size: 23px;
+}
+
+.via > span{
+  display: block;
+}
+
+.batteria1{
+  background-color: orange;
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.batteria2{
+  background-color: green;
+  height: 25px;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.batteria3{
+  background-color: red;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
